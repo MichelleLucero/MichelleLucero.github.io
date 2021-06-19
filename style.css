@@ -61,5 +61,6 @@ section {
 .card-info {
   padding: 8px 24px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 24px;
 }
